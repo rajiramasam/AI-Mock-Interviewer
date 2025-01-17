@@ -74,3 +74,28 @@
       @apply bg-background text-foreground;
     }
   }
+
+  @media screen {
+    .step-description-wrap{
+      width: 100%;
+      min-width: 0;
+    } 
+  }
+  .step-description-wrap{
+    gap: 16px;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .flex-column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .step-video-wrap{
+    align-content: flex-end;
+    width: 100%;
+  }
+  .step-number{
+    align-self: flex-start;
+  }
+  
